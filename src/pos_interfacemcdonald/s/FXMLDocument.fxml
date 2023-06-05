@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pos_interfacemcdonald.s.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="265.0" prefWidth="774.0">
+         <children>
+            <Pane layoutY="102.0" prefHeight="333.0" prefWidth="780.0" styleClass="lower_BG" stylesheets="@../../CSS/Style.css" />
+            <Pane layoutX="1.0" layoutY="-3.0" prefHeight="102.0" prefWidth="774.0" styleClass="upper_BG" stylesheets="@../../CSS/Style.css" />
+            <Pane layoutX="27.0" layoutY="25.0" prefHeight="390.0" prefWidth="727.0" styleClass="Main-F" stylesheets="@../../CSS/Style.css">
+               <children>
+                  <AnchorPane layoutX="11.0" layoutY="10.0" prefHeight="371.0" prefWidth="113.0" styleClass="Bar" stylesheets="@../../CSS/Style.css">
+                     <children>
+                        <AnchorPane layoutX="6.0" layoutY="52.0" prefHeight="42.0" prefWidth="104.0" styleClass="Category" stylesheets="@../../CSS/Style.css">
+                           <children>
+                              <Text layoutX="67.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Burgers" wrappingWidth="46.00000739097595">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="46.0" fitWidth="51.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../IMG/Burgers.png" />
+                                 </image>
+                              </ImageView>
+                              <JFXButton fx:id="btn_1" layoutX="6.0" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="131.0" ripplerFill="WHITE" stylesheets="@../../CSS/Style.css" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="7.0" layoutY="115.0" prefHeight="63.0" prefWidth="121.0" styleClass="Category" stylesheets="@../../CSS/Style.css">
+                           <children>
+                              <Text layoutX="52.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chicken &amp; Sandwiches" textAlignment="CENTER" wrappingWidth="70.99998414516449">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="39.0" fitWidth="65.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../IMG/btn2.png" />
+                                 </image>
+                              </ImageView>
+                              <JFXButton fx:id="btn_2" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="137.0" ripplerFill="WHITE" styleClass="Cbutton" stylesheets="@../../CSS/Style.css" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="9.0" layoutY="178.0" prefHeight="63.0" prefWidth="121.0" styleClass="Category" stylesheets="@../../CSS/Style.css">
+                           <children>
+                              <Text layoutX="52.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McNuggets® and Meals" textAlignment="CENTER" wrappingWidth="70.99998414516449">
+                                 <font>
+                                    <Font name="System Bold" size="11.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="39.0" fitWidth="65.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../IMG/opt3.png" />
+                                 </image>
+                              </ImageView>
+                              <JFXButton fx:id="btn_3" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="131.0" ripplerFill="WHITE" styleClass="Cbutton" stylesheets="@../../CSS/Style.css" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="6.0" layoutY="241.0" prefHeight="63.0" prefWidth="137.0" styleClass="Category" stylesheets="@../../CSS/Style.css">
+                           <children>
+                              <Text layoutX="52.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fries &amp; Sides" textAlignment="CENTER" wrappingWidth="70.99998414516449">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="39.0" fitWidth="65.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../IMG/opt4.png" />
+                                 </image>
+                              </ImageView>
+                              <JFXButton fx:id="btn_4" layoutX="-11.0" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="145.0" ripplerFill="WHITE" styleClass="Cbutton" stylesheets="@../../CSS/Style.css" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="8.0" layoutY="304.0" prefHeight="63.0" prefWidth="137.0" styleClass="Category" stylesheets="@../../CSS/Style.css">
+                           <children>
+                              <Text layoutX="52.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McCafé® Coffees" textAlignment="CENTER" wrappingWidth="70.99998414516449">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="39.0" fitWidth="65.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../IMG/opt5.png" />
+                                 </image>
+                              </ImageView>
+                              <JFXButton fx:id="btn_5" layoutX="3.0" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="131.0" ripplerFill="WHITE" styleClass="Cbutton" stylesheets="@../../CSS/Style.css" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="-2.0" layoutY="6.0" prefHeight="2.0" prefWidth="142.0">
+                           <children>
+                              <ImageView fitHeight="39.0" fitWidth="60.0" layoutX="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../IMG/pngegg%20(2).png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="39.0" fitWidth="96.0" layoutX="49.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../IMG/-11600767942ntjkka9zjs.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="534.0" layoutY="10.0" prefHeight="371.0" prefWidth="187.0" styleClass="Bar" stylesheets="@../../CSS/Style.css">
+                     <children>
+                        <JFXButton layoutX="11.0" layoutY="325.0" prefHeight="25.0" prefWidth="166.0" ripplerFill="WHITE" styleClass="Chck_btn" text="Checkout" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <Text layoutX="11.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Orders Bill" wrappingWidth="95.99998846650124">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <AnchorPane layoutX="5.0" layoutY="23.0" prefHeight="48.0" prefWidth="177.0" styleClass="Bar">
+                           <children>
+                              <ImageView fitHeight="32.0" fitWidth="46.0" layoutX="22.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../IMG/DC_201907_0005_BigMac_832x472_1-4-product-tile-desktop.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="61.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Big Mac®">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="61.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                              <JFXButton layoutX="122.0" layoutY="9.0" prefHeight="32.0" prefWidth="46.0" styleClass="Order_btn" text="Cancel">
+                                 <font>
+                                    <Font name="System Bold" size="9.0" />
+                                 </font>
+                              </JFXButton>
+                              <Text layoutX="6.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x3">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                        <Pane layoutX="14.0" layoutY="298.0" prefHeight="22.0" prefWidth="166.0" styleClass="total_Bar">
+                           <children>
+                              <Text layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total:" wrappingWidth="77.00000558048487">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </Pane>
+                        <AnchorPane layoutX="6.0" layoutY="76.0" prefHeight="48.0" prefWidth="177.0" styleClass="Bar">
+                           <children>
+                              <ImageView fitHeight="32.0" fitWidth="46.0" layoutX="22.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../IMG/fries.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="61.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fries®">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="61.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                              <JFXButton layoutX="122.0" layoutY="9.0" prefHeight="32.0" prefWidth="46.0" styleClass="Order_btn" text="Cancel">
+                                 <font>
+                                    <Font name="System Bold" size="9.0" />
+                                 </font>
+                              </JFXButton>
+                              <Text layoutX="6.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x6">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="6.0" layoutY="129.0" prefHeight="48.0" prefWidth="177.0" styleClass="Bar">
+                           <children>
+                              <ImageView fitHeight="32.0" fitWidth="46.0" layoutX="22.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../IMG/McNuggets.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="61.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McNuggets">
+                                 <font>
+                                    <Font name="System Bold" size="9.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="61.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                              <JFXButton layoutX="122.0" layoutY="9.0" prefHeight="32.0" prefWidth="46.0" styleClass="Order_btn" text="Cancel">
+                                 <font>
+                                    <Font name="System Bold" size="9.0" />
+                                 </font>
+                              </JFXButton>
+                              <Text layoutX="6.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x9">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </children></AnchorPane>
+                  <AnchorPane layoutX="131.0" layoutY="10.0" prefHeight="371.0" prefWidth="333.0">
+                     <children>
+                        <Pane fx:id="panel3" layoutX="32.0" prefHeight="371.0" prefWidth="370.0" styleClass="Center_Bar">
+                           <children>
+                              <Pane layoutX="152.0" layoutY="14.0" prefHeight="25.0" prefWidth="208.0" styleClass="Search_bar">
+                                 <children>
+                                    <JFXTextArea focusColor="BLACK" layoutX="10.0" layoutY="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="22.0" prefWidth="173.0" promptText="Search" />
+                                    <ImageView fitHeight="32.0" fitWidth="18.0" layoutX="185.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../IMG/search.png" />
+                                       </image>
+                                    </ImageView>
+                                    <JFXButton layoutX="185.0" prefHeight="25.0" prefWidth="24.0" ripplerFill="#eebaba" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="7.0" layoutY="15.0" prefHeight="25.0" prefWidth="140.0">
+                                 <children>
+                                    <Text layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McNuggets &amp; Meals" wrappingWidth="139.99999165534973">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <GridPane layoutX="8.0" layoutY="57.0" prefHeight="305.0" prefWidth="353.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McNuggets.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McNuggets01" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McNuggets.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McNuggets02" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.rowIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McNuggets.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McNuggets03" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McNuggets.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McNuggets04" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.rowIndex="2">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McNuggets.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McNuggets05" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McNuggets.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McNuggets06" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="panel2" layoutX="33.0" prefHeight="371.0" prefWidth="370.0" styleClass="Center_Bar">
+                           <children>
+                              <Pane layoutX="152.0" layoutY="14.0" prefHeight="25.0" prefWidth="208.0" styleClass="Search_bar">
+                                 <children>
+                                    <JFXTextArea focusColor="BLACK" layoutX="10.0" layoutY="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="22.0" prefWidth="173.0" promptText="Search" />
+                                    <ImageView fitHeight="32.0" fitWidth="18.0" layoutX="185.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../IMG/search.png" />
+                                       </image>
+                                    </ImageView>
+                                    <JFXButton layoutX="185.0" prefHeight="25.0" prefWidth="24.0" ripplerFill="#eebaba" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="7.0" layoutY="15.0" prefHeight="25.0" prefWidth="140.0">
+                                 <children>
+                                    <Text layoutX="8.0" layoutY="9.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chicken and Sandwiches" textAlignment="CENTER" wrappingWidth="139.99999165534973">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <GridPane layoutX="8.0" layoutY="57.0" prefHeight="305.0" prefWidth="353.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McChicken.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McCrispy™01" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McChicken.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McCrispy™02" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.rowIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McChicken.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McCrispy™03" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McChicken.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McCrispy™04" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.rowIndex="2">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McChicken.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McCrispy™05" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McChicken.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McCrispy™06" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="panel4" layoutX="29.0" prefHeight="371.0" prefWidth="370.0" styleClass="Center_Bar">
+                           <children>
+                              <Pane layoutX="152.0" layoutY="14.0" prefHeight="25.0" prefWidth="208.0" styleClass="Search_bar">
+                                 <children>
+                                    <JFXTextArea focusColor="BLACK" layoutX="10.0" layoutY="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="22.0" prefWidth="173.0" promptText="Search" />
+                                    <ImageView fitHeight="32.0" fitWidth="18.0" layoutX="185.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../IMG/search.png" />
+                                       </image>
+                                    </ImageView>
+                                    <JFXButton layoutX="185.0" prefHeight="25.0" prefWidth="24.0" ripplerFill="#eebaba" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="7.0" layoutY="15.0" prefHeight="25.0" prefWidth="140.0">
+                                 <children>
+                                    <Text layoutX="8.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fries and Sides" wrappingWidth="139.99999165534973">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <GridPane layoutX="8.0" layoutY="57.0" prefHeight="305.0" prefWidth="353.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/fries.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fries®01" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="17.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/fries.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fries®02" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="17.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.rowIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/fries.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fries®03" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="17.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/fries.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fries®04" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="17.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.rowIndex="2">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/fries.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fries®05" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="17.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/fries.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fries®06" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="17.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="panel5" layoutX="31.0" prefHeight="361.0" prefWidth="367.0" styleClass="Center_Bar">
+                           <children>
+                              <Pane layoutX="152.0" layoutY="14.0" prefHeight="25.0" prefWidth="208.0" styleClass="Search_bar">
+                                 <children>
+                                    <JFXTextArea focusColor="BLACK" layoutX="10.0" layoutY="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="22.0" prefWidth="173.0" promptText="Search" />
+                                    <ImageView fitHeight="32.0" fitWidth="18.0" layoutX="185.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../IMG/search.png" />
+                                       </image>
+                                    </ImageView>
+                                    <JFXButton layoutX="185.0" prefHeight="25.0" prefWidth="24.0" ripplerFill="#eebaba" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="7.0" layoutY="15.0" prefHeight="25.0" prefWidth="140.0">
+                                 <children>
+                                    <Text layoutX="8.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McCafé® Coffees" wrappingWidth="139.99999165534973">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <GridPane layoutX="8.0" layoutY="57.0" prefHeight="305.0" prefWidth="353.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McCafe.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Coffee01" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McCafe.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Coffee02" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.rowIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McCafe.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Coffee03" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McCafe.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Coffee04" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.rowIndex="2">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McCafe.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Coffee05" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/McCafe.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Coffee06" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="96.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="panel1" layoutX="31.0" layoutY="1.0" prefHeight="371.0" prefWidth="370.0" styleClass="Center_Bar">
+                           <children>
+                              <Pane layoutX="152.0" layoutY="14.0" prefHeight="25.0" prefWidth="208.0" styleClass="Search_bar">
+                                 <children>
+                                    <JFXTextArea focusColor="BLACK" layoutX="10.0" layoutY="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="22.0" prefWidth="173.0" promptText="Search" />
+                                    <ImageView fitHeight="32.0" fitWidth="18.0" layoutX="185.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../IMG/search.png" />
+                                       </image>
+                                    </ImageView>
+                                    <JFXButton layoutX="185.0" prefHeight="25.0" prefWidth="24.0" ripplerFill="#eebaba" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="7.0" layoutY="15.0" prefHeight="25.0" prefWidth="140.0">
+                                 <children>
+                                    <Text layoutX="8.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Burgers" wrappingWidth="139.99999165534973">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <GridPane layoutX="8.0" layoutY="57.0" prefHeight="305.0" prefWidth="353.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/DC_201907_0005_BigMac_832x472_1-4-product-tile-desktop.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="76.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Big Mac®" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="93.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/DC_202201_0007-005_QuarterPounderwithCheese_832x472_1-4-product-tile-desktop.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="93.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quarter Pounder®* with Cheese" wrappingWidth="83.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="92.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.rowIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/202201_3426-005_DoubleQuarterPounderwithCheese_832x472_1-4-product-tile-desktop.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="91.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Double Quarter Pounder® with Cheese" wrappingWidth="95.99998265504837">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="92.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/202002_0592_McDouble_Alt_832x472_1-4-product-tile-desktop.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="79.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="McDouble®" textAlignment="CENTER" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="94.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.rowIndex="2">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/DC_202201_4282_QuarterPounderCheeseDeluxe_Shredded_832x472_1-4-product-tile-desktop.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="89.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quarter Pounder®* with Cheese Deluxe" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="92.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="List" stylesheets="@../../CSS/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <children>
+                                          <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../IMG/DC_202002_0004_DoubleCheeseburger_Alt_832x472_1-4-product-tile-desktop.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="92.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Double Cheeseburger" wrappingWidth="95.9999942779541">
+                                             <font>
+                                                <Font name="Arial Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="92.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P100" wrappingWidth="38.99998605251312" />
+                                          <JFXButton layoutX="90.0" layoutY="63.0" prefHeight="25.0" prefWidth="77.0" ripplerFill="WHITE" styleClass="Order_btn" text="ORDER">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </GridPane>
+                           </children></Pane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

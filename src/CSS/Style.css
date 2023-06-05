@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06 3, 23, 11:04:38 PM
+    Author     : BenRyanRinconada
+*/
+
+.Main-F{
+    
+    -fx-background-color: white;
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-style: solid;
+}
+.Bar{
+     -fx-background-color: white;
+/*    -fx-border-color: blue;*/
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+}
+.Center_Bar{
+     -fx-background-color:white;
+}
+.Search_bar{
+     -fx-background-color:white;
+/*    -fx-border-color: blue;*/
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+}
+
+.btn{
+     -fx-background-color:#353A56;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #353A56;
+}
+
+.Chck_btn{
+    -fx-background-color:#96120F;
+    -fx-text-fill:white ;
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+.Chck_btn:pressed {
+    -fx-background-color:rgb(255, 188, 13);
+    -fx-text-fill:white ;
+    -fx-transition: all 0.5s;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+.Order_btn{
+    -fx-background-color:rgb(255, 188, 13);
+    -fx-text-fill:white ;
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+.Order_btn:pressed {
+    -fx-background-color:#96120F;
+    -fx-text-fill: white;
+    -fx-transition: all 0.5s;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+.Category{
+      -fx-background-color:white;
+    -fx-border-width: 0px 0px 0px 3px;
+  
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+.Category:hover{
+     -fx-border-width: 0px 0px 0px 3px;
+  
+    -fx-border-style: solid;
+    -fx-border-color: #96120F;
+    
+}
+.Category:pressed{
+    -fx-background-color:rgb(255, 188, 13);
+    -fx-text-fill:white;
+    -fx-transition: all 0.5s;
+}
+.lower_BG{
+    -fx-background-color:#ffcc00;
+}
+
+.upper_BG{
+    -fx-background-color:white;
+}
+
+.total_Bar{
+    -fx-border-width: 1px 0px 1px 0px;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    
+}
